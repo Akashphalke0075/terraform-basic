@@ -11,5 +11,5 @@ default = "i am decalring sample 1"
 }
 
 output "sample1"{
-    value = sample1.var
+    value = var.sample1
 }
