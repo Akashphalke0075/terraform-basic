@@ -7,5 +7,5 @@ output "sample" {
 }
 
 output "sample1" {
-    value = "the value is $(var.sample)"
+    value = "the value is $(var.sample1)"
 }
