@@ -11,5 +11,5 @@ output "sample1" {
 }
 
 output "sample2" {
-    value = "this is second sample ${var.sample}"
+    value = "this is second sample ${var.sample2}"
 }
