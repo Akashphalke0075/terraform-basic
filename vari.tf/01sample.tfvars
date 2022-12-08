@@ -1,1 +1,2 @@
 city = "sangli"
+state = "karnataka"
