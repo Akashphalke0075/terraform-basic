@@ -23,7 +23,7 @@ output "number" {
 }
 
 variable "name" {
-    default = "akash phalke"
+default = "akash phalke"
 }
 
 output "name" {
