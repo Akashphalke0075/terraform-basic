@@ -25,3 +25,11 @@ output "number" {
 output "sample3" {
     value = "akash is my name and my first line is ${var.sample}"
 }
+
+variable "booleean" {
+    default = true
+}
+
+output "boolean" {
+    value = var.boolean
+}
