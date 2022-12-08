@@ -36,5 +36,5 @@ variable "class" {
 }
 
 output "class-ouput" {
-    value = "thi is ${var.class[0]} ${var.class[1]}" having ${var.class[2]} percent attendance by ${var.class[3]}"
+    value = "this is ${var.class[0]} ${var.class[1]}" having percentage as many people get ${var.class[2]} percent attendance by ${var.class[3]}"
 }
