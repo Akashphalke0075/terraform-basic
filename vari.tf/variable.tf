@@ -21,3 +21,11 @@ default = 100
 output "number" {
     value = var.number
 }
+
+variable "name" {
+    defaault = "akash phalke"
+}
+
+output "name" {
+    value = "var.name"
+}
