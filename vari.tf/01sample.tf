@@ -1,7 +1,7 @@
-variable "sample" {
+variable "sample7" {
     default = "heloo aurangbad"
 }
 
-output "sample-ouput" {
-    value = "this is me saying ${var.sample}"
+output "sample7-ouput" {
+    value = "this is me saying ${var.sample7}"
 }
