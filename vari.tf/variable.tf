@@ -25,17 +25,3 @@ output "number" {
 output "sample3" {
     value = "akash is my name and my first line is ${var.sample}"
 }
-
-variable "ex-list"  {
-    default = [
-        "cloud",
-        "devops",
-         100,
-        false,
-        "akash"
-    ]
-}
-
-ouput "ex-list-ouput" {
-    value = "welcom to ${var.ex-list(0)}"
-}
