@@ -22,10 +22,6 @@ output "number" {
     value = var.number
 }
 
-variable "sample3" {
-default = "akash phalke"
-}
-
 output "sample3" {
-    value = "var.sample3"
+    value = "akash is my name and my first line is ${var.sample}"
 }
