@@ -31,5 +31,5 @@ variable "booleean" {
 }
 
 output "boolean" {
-    value = var.boolean
+    value = "var.boolean"
 }
