@@ -22,10 +22,10 @@ output "number" {
     value = var.number
 }
 
-variable "sample" {
+variable "sample3" {
 default = "akash phalke"
 }
 
-output "sample" {
-    value = "var.sample"
+output "sample3" {
+    value = "var.sample3"
 }
