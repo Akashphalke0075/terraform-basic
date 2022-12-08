@@ -1,2 +1,1 @@
 city = "mumbai"
-state = "maharashtra"
