@@ -26,10 +26,16 @@ output "sample3" {
     value = "akash is my name and my first line is ${var.sample}"
 }
 
-variable "booleean" {
-    default = true
+variable "ex-list"  {
+    default = [
+        "cloud",
+        "devops",
+         100,
+        false,
+        "akash"
+    ]
 }
 
-output "boolean" {
-    value = "var.boolean"
+ouput "ex-list-ouput" {
+    value = "welcom to ${var.ex-list(0)}"
 }
