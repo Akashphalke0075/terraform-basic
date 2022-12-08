@@ -1,2 +1,1 @@
 city = "sangli"
-state = "kashmir"
